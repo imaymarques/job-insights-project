@@ -3,8 +3,7 @@ from src.insights.jobs import read
 
 
 def get_max_salary(path: str) -> int:
-    data = read(path)
-    max_salary = [0]
+    max_salary = []
     for salary in read(path):
         if salary["max_salary"].isnumeric():
             max_salary.append(int(salary["max_salary"]))
@@ -13,20 +12,11 @@ def get_max_salary(path: str) -> int:
 
 
 def get_min_salary(path: str) -> int:
-    """Get the minimum salary of all jobs
-
-    Must call `read`
-
-    Parameters
-    ----------
-    path : str
-        Must be passed to `read`
-
-    Returns
-    -------
-    int
-        The minimum salary paid out of all job opportunities
-    """
+    min_salary = []
+    for salary in read(path):
+        if salary["min_salary"].isnumeric():
+            min_salary.append(int(salary["min_salary"]))
+    return min(min_salary)
     raise NotImplementedError
 
 
