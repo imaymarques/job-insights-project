@@ -43,6 +43,24 @@ def matches_salary_range(job: Dict, salary: Union[int, str]) -> bool:
         If `job["min_salary"]` is greather than `job["max_salary"]`
         If `salary` isn't a valid integer
     """
+
+    if "min_salary" not in job or "max_salary" not in job:
+        raise ValueError("keys 'min_salary' and 'max_salary' doesn't exists")
+
+    if not isinstance(job['min_salary'], (int)) or \
+            not isinstance(job['max_salary'], (int)):
+        raise ValueError("keys 'min_salary' and 'max_salary' must be integers")
+
+    if job["min_salary"] > job["max_salary"]:
+        raise ValueError("min_salary' keys cannot be greater than 'max_salary")
+
+    if not isinstance(salary, (int, str)):
+        raise ValueError("'salary' must be integer")
+
+    salary = int(salary)
+
+    salary_range = job["min_salary"] <= salary <= job["max_salary"]
+    return salary_range
     raise NotImplementedError
 
 
