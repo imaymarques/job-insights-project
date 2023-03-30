@@ -1,13 +1,48 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Job Insights Project
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este projeto consiste em uma análise de dados sobre empregos, que será incorporada a um aplicativo web desenvolvido com Flask. Ele foi todo desenvolvido em Python.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Habilidades utilizadas para o desenvolvimento desse projeto:
+
+* Utilizar o terminal interativo do Python.
+* Utilizar estruturas condicionais e de repetição.
+* Utilizar funções built-in do Python.
+* Utilizar tratamento de exceções.
+* Realizar a manipulação de arquivos.
+* Escrever funções.
+* Escrever testes com Pytest.
+* Escrever seus próprios módulos e importá-los em outros códigos.
+
+## Conjunto de Dados
+
+O conjunto de dados de empregos é composto por informações sobre várias vagas de emprego, como título do cargo, descrição, localização, salário, requisitos e outras informações relevantes.
+
+## Implementação
+
+A implementação deste projeto foi realizada em Python, utilizando o framework web Flask. 
+
+
+______________________________________________________________________________________________________________________________________________________
+
+# Job Insights Project
+
+This project consists of a data analysis of job postings, which will be incorporated into a web application developed with Flask. It was entirely developed in Python.
+
+## Skills used for the development of this project:
+
+* Use of Python's interactive terminal.
+* Use of conditional and loop structures.
+* Use of built-in functions in Python.
+* Exception handling.
+* Manipulation of files.
+* Writing functions.
+* Writing tests with Pytest.
+* Writing your own modules and importing them into other code.
+
+## Dataset
+
+The job dataset is composed of information about various job postings, such as job title, description, location, salary, requirements, and other relevant information.
+
+## Implementation
+
+The implementation of this project was done in Python, using the Flask web framework.
